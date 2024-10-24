@@ -69,7 +69,8 @@ Ensure the following are installed:
     The backend API runs on -
 
 ## Team
-    - Product Manager:  [Harriflexy](https://github.com/Harriflexy)
-    - Frontend Developer: [Livinus Ekene](https://github.com/livinusonyenso)
-    - Backend Developer: [Oodo Roland](https://github.com/rolix202)
+
+- Product Manager:  [Harriflexy](https://github.com/Harriflexy)
+- Frontend Developer: [Livinus Ekene](https://github.com/livinusonyenso)
+- Backend Developer: [Oodo Roland](https://github.com/rolix202)
     
