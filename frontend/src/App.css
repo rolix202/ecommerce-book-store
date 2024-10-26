@@ -86,6 +86,7 @@ input::placeholder{
   border: 1px solid #937DC2;
   border-radius: 3px;
   color: purple;
+  cursor: pointer;
 }
 .call-wrap .phone-wrap{
   position: relative;
