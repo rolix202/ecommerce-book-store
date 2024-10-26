@@ -16,10 +16,6 @@ const ProductDetails = () => {
     setCurrentImage(image);
   };
 
-
-
-  
-  
     const handleQuantityChange = (operation) => {
       setQuantity(prevQuantity =>
         operation === 'increase' ? prevQuantity + 1 : prevQuantity > 1 ? prevQuantity - 1 : 1
