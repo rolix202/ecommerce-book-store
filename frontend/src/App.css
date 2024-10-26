@@ -1,0 +1,98 @@
+.top-menu{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+.top-links ul li, .second-menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding-inline: 20px;
+}
+.top-links ul li a, .second-menu ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #7B7881;
+}
+.top-menu .icon, .call-wrap .icon{
+  width: 20px;
+  height: 20px;
+  color: purple;
+}
+.top-menu .logo{
+  display: flex;
+  align-items: center;
+}
+.top-menu .logo-name{
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #231F2D;
+  font-weight: bold;
+}
+.top-menu .logo-tag::before{
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 1px;
+  margin-left: -4px;
+  background-color: #937DC2;
+}
+.top-menu .logo-tag{
+  font-size: 12px;
+  color: #937DC2;
+  display: inline-block;
+  width: 30%;
+  margin-left: 8px;
+}
+.top-menu .search-b{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.top-menu .search-b input{
+  border: 0;
+  width: 100%;
+  padding-inline: 5px;
+  background-color: #F1F1F1;
+}
+input::placeholder{
+  color: #B8B8B8;
+  padding-left: 10px;
+}
+.top-menu .search-b .search-icon{
+  position: absolute;
+  right: 5px;
+  width: 20px;
+  height: auto;
+  top: 6px;
+}
+.second-menu{
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10px;
+  align-items: center;
+  padding-inline: 50px;
+}
+.call-wrap{
+  display: flex;
+  align-items: center;
+  width: 450px;
+  gap: 40px;
+}
+.call-wrap .call-request{
+  padding: 15px 25px;
+  background-color: white;
+  border: 1px solid #937DC2;
+  border-radius: 3px;
+  color: purple;
+}
+.call-wrap .phone-wrap{
+  position: relative;
+}
+.call-wrap .phone-wrap span{
+  margin-left: 30px;
+}
+.call-wrap .phone-wrap .icon{
+  position: absolute;
+}
