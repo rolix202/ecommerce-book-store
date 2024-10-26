@@ -15,6 +15,8 @@ const TopMenu = () => {
         </div>
         <div className="top-links">
             <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/product-page">Product Page</a></li>
                 <li><a href="">Privacy Policy</a></li>
                 <li><a href="">Warranty</a></li>
                 <li><a href="">Shipping</a></li>
