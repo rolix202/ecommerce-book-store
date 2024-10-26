@@ -1,0 +1,158 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo-image img {
+  width: 125px;
+  height: 25px;
+  margin-left: 20px;
+  
+}
+
+.header__tagline {
+  width: 51px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 0.8em; 
+  line-height: 1.2; 
+  text-align: left; 
+  border-left: 1.5px solid rgb(132, 20, 132);
+  padding: 0px 0px 0px 7px;
+  white-space: nowrap;
+  color: #937DC2;
+}
+
+
+.header__search {
+  display: flex;
+  width: 376px;
+  height: 36px;
+  background-color: #F1F1F1;
+  align-items: center;
+}
+
+.header__search-input {
+  width: 353px;
+  height: 20px;
+  background-color: #F1F1F1;
+  padding: 8px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+}
+
+.header__search-button {
+  padding: 8px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.header__search-icon {
+  width: 20px;
+  height: 20px;
+  font-size: 1.2em;
+}
+
+.header__nav {
+  display: flex;
+  gap: 10px;
+}
+
+.header__nav-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.header__nav-link:hover {
+  color: #937DC2;
+}
+
+.header__icons {
+  display: flex;
+  gap: 15px;
+}
+
+.header__icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header__icon-button--cart i,
+.header__icon-button--login i {
+  font-size: 1.2em;
+}
+
+
+.secondary-header {
+ height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.secondary-header__nav {
+  display: flex;
+  gap: 15px;
+}
+
+.secondary-header__link {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.secondary-header__link:hover {
+  color: #937DC2;
+}
+
+.secondary-header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.secondary-header__contact {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.secondary-header__contact i {
+  margin-right: 5px;
+  color: #937DC2;
+}
+
+.secondary-header__call-btn {
+
+  border: 1px solid #937DC2;
+  background-color: transparent;
+  color: #937DC2;
+  padding: 18px 37px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.secondary-header__call-btn:hover {
+  background-color: #937DC2;
+  color: white;
+}
+
