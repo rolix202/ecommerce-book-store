@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <div className="header__logo">
         <span className="header__logo-image">
-          <img src="./images/logo.png" alt="Logo" />
+          <img src="../public/images/logo.png" alt="Logo" />
         </span>
         <span className="header__tagline">
           We love <br/> books</span>
