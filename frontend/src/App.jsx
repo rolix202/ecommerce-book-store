@@ -1,7 +1,5 @@
 import React from 'react'
 import './App.css'
-import ProductDetails from './components/product-Details/ProductDetails'
-import Header from './components/header/Header'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -22,6 +20,7 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <div>
+
       <RouterProvider router={router} />  
     </div>
     
