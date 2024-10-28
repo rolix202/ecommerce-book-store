@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Collections.css";
 import {
   MdOutlineKeyboardArrowRight,
   MdOutlineKeyboardArrowLeft,
@@ -8,15 +7,13 @@ import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
 
-const CollectionGrid = ({ items }) => {
+const LastView = ({ items }) => {
   const [isFilled, setIsfilled] = useState(false);
 
   const itemsPerPage = 4;
   const totalItems = items.length;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [filledItems, setFilledItems] = useState({});
-
-  
 
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
@@ -47,7 +44,7 @@ const CollectionGrid = ({ items }) => {
   return (
     <div className="collection-container">
       <div className="collection-grid">
-        <h2 className="collection-grid-title">Collection</h2>
+        <h2 className="collection-grid-title">Last viewed</h2>
         <div className="items">
           <span onClick={handlePrev}>
             <MdOutlineKeyboardArrowLeft
@@ -107,4 +104,4 @@ const CollectionGrid = ({ items }) => {
   );
 };
 
-export default CollectionGrid;
+export default LastView;
