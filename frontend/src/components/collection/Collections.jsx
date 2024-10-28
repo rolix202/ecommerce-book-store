@@ -5,8 +5,15 @@ import {
   MdOutlineKeyboardArrowLeft,
 } from "react-icons/md";
 import { IoCartOutline } from "react-icons/io5";
+import { FaRegHeart } from "react-icons/fa";
+import { IoIosHeart } from "react-icons/io";
+
+
+
 
 const CollectionGrid = ({ items }) => {
+const [isFilled, setIsfilled] = useState(false)
+
   const itemsPerPage = 4;
   const totalItems = items.length;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,6 +24,10 @@ const CollectionGrid = ({ items }) => {
     const start = currentIndex * itemsPerPage;
     return items.slice(start, start + itemsPerPage);
   };
+
+  const handleHeartClick = () =>{
+    setIsfilled(!isFilled)
+  }
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
@@ -47,7 +58,10 @@ const CollectionGrid = ({ items }) => {
               <img src={item.image} alt={item.title} />
               <h3 className="items__item-title">{item.title}</h3>
               <p className="items__item-author">{item.author}</p>
-              <p className="items__item-price">${item.price}</p>
+              <div className="item-priceFahaertContainer">
+              <span className="items__item-price">${item.price}</span>
+              <span className="items__item-FaHeart" onClick={handleHeartClick}>{isFilled ? <IoIosHeart color="purple" size={20} /> :  <FaRegHeart color="purple" size={20} />  }</span>
+              </div>
               <button className="items__item-button">
                 <span className="items__item-button-info">
                   <span className="IoCartOutline">
