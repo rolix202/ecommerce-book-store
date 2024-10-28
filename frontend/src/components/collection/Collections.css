@@ -37,6 +37,12 @@
   .items__item-price{
     padding: 12px 0px;
   }
+  .item-priceFahaertContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 
   .items__item-button{
     width: 274px;
