@@ -1,35 +1,35 @@
 [
     {
     
-      "image": "../public/images/a.png",
+      "image": "/images/a.png",
       "title": "Chain of Iron: Volume 2",
       "author": "Cassandra Clare",
       "price": 23.24,
       "loveIcon": true
     },
     {
-      "image":  "../public/images/c.png",
+      "image":  "/images/c.png",
       "title": "Chain of Thorns",
       "author": "Cassandra Clare",
       "price": 23.24,
       "loveIcon": false
     },
     {
-      "image": "../public/images/c.png",
+      "image": "/images/c.png",
       "title": "City of Fallen Angels",
       "author": "Cassandra Clare",
       "price": 13.94,
       "loveIcon": true
     },
     {
-        "image":  "../public/images/c.png",
+        "image":  "/images/c.png",
         "title": "Chain of Thorns",
         "author": "Cassandra Clare",
         "price": 23.24,
         "loveIcon": false
       },
     {
-      "image":"../public/images/a.png",
+      "image":"/images/a.png",
       "title": "Clockwork Princess",
       "author": "Cassandra Clare",
       "price": 18.75,
@@ -37,21 +37,21 @@
     },
     {
     
-        "image": "../public/images/a.png",
+        "image": "/images/a.png",
         "title": "Chain of Iron: Volume 2",
         "author": "Cassandra Clare",
         "price": 23.24,
         "loveIcon": true
       },
       {
-        "image":  "../public/images/c.png",
+        "image":  "/images/c.png",
         "title": "Chain of Thorns",
         "author": "Cassandra Clare",
         "price": 23.24,
         "loveIcon": false
       },
       {
-        "image": "../public/images/c.png",
+        "image": "/images/c.png",
         "title": "City of Fallen Angels",
         "author": "Cassandra Clare",
         "price": 13.94,
@@ -59,14 +59,14 @@
       },
       {
     
-        "image": "../public/images/a.png",
+        "image": "/images/a.png",
         "title": "Chain of Iron: Volume 2",
         "author": "Cassandra Clare",
         "price": 23.24,
         "loveIcon": true
       },
       {
-        "image":"../public/images/a.png",
+        "image":"/images/a.png",
         "title": "Clockwork Princess",
         "author": "Cassandra Clare",
         "price": 18.75,
@@ -74,35 +74,35 @@
       },
       {
     
-        "image": "../public/images/a.png",
+        "image": "/images/a.png",
         "title": "Chain of Iron: Volume 2",
         "author": "Cassandra Clare",
         "price": 23.24,
         "loveIcon": true
       },
       {
-        "image": "../public/images/c.png",
+        "image": "/images/c.png",
         "title": "City of Fallen Angels",
         "author": "Cassandra Clare",
         "price": 13.94,
         "loveIcon": true
       },
       {
-        "image":  "../public/images/c.png",
+        "image":  "/images/c.png",
         "title": "Chain of Thorns",
         "author": "Cassandra Clare",
         "price": 23.24,
         "loveIcon": false
       },
       {
-        "image": "../public/images/c.png",
+        "image": "/images/c.png",
         "title": "City of Fallen Angels",
         "author": "Cassandra Clare",
         "price": 13.94,
         "loveIcon": true
       },
       {
-        "image":"../public/images/a.png",
+        "image":"/images/a.png",
         "title": "Clockwork Princess",
         "author": "Cassandra Clare",
         "price": 18.75,
@@ -110,7 +110,7 @@
       },
       {
     
-        "image": "../public/images/a.png",
+        "image": "/images/a.png",
         "title": "Chain of Iron: Volume 2",
         "author": "Cassandra Clare",
         "price": 23.24,
