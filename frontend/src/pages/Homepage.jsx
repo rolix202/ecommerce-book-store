@@ -2,6 +2,7 @@ import React from 'react'
 import TopMenu from '../components/TopMenu'
 import SecondTopMenu from '../components/SecondTopMenu'
 import HeroSection from '../components/HeroSection'
+import FeatureSection from '../components/FeatureSection'
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
         <SecondTopMenu />
         <hr className='horizontal-line'/>
         <HeroSection />
+        <FeatureSection />
     </div>
   )
 }

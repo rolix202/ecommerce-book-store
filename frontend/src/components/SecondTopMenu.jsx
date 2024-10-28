@@ -1,5 +1,6 @@
 import { PhoneIcon } from '@heroicons/react/24/solid'
 import React from 'react'
+import ButtonComponent from './ButtonComponent'
 
 const SecondTopMenu = () => {
     return (
@@ -18,7 +19,10 @@ const SecondTopMenu = () => {
                         <span>+234 807 999 000</span>
                     </div>
 
-                    <button className='call-request'>Request a call</button>
+                    <ButtonComponent 
+                        className="call-request"
+                        text="Request a call"    
+                    />
                 </div>
             </div>
         </div>
