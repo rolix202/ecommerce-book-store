@@ -80,7 +80,7 @@ input::placeholder{
   justify-content: space-between;
   padding-block: 10px;
   align-items: center;
-  padding-inline: 50px;
+  padding-inline: 10px;
 }
 .call-wrap{
   display: flex;
@@ -88,13 +88,27 @@ input::placeholder{
   width: 450px;
   gap: 40px;
 }
-.call-wrap .call-request{
+.call-request{
   padding: 15px 25px;
   background-color: white;
   border: 1px solid #937DC2;
   border-radius: 3px;
   color: purple;
   cursor: pointer;
+}
+.hero-down-btn{
+  padding: 15px 25px;
+  background-color: #937DC2;
+  border: 1px solid #937DC2;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.hero-down-btn:hover{
+  background-color: white;
+  border: 1px solid #937DC2;
+  color: #937DC2;
+  transition: .1s ease-in;
 }
 .call-wrap .phone-wrap{
   position: relative;
@@ -109,4 +123,71 @@ input::placeholder{
   background-color: #937DC2;
   color: white;
   transition: .1s ease-in;
+}
+.hero-container{
+  display: flex;
+  width: 100%;
+}
+.hero-left{
+  width: 50%;
+  padding: 20px 90px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.hero-right{
+  width: 50%;
+  position: relative;
+}
+.hero-left-content{
+  width: 450px;
+}
+.hero-left-content .call-request{
+  margin-bottom: 50px;
+}
+.hero-left-content .hero-down-btn{
+  margin-top: 50px;
+}
+.book-wrapper{
+  display: flex;
+  justify-content: end;
+  padding-right: 90px;
+}
+.hero-right-text{
+position: absolute;
+text-transform: uppercase;
+font-size: 18px;
+color: #201F1F;
+top: 80px;
+left: 80px;
+line-height: 1.7;
+}
+.hero-name-btn-1{
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid purple;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.hero-name-btn-2{
+  border-radius: 50%;
+  border: 1px solid purple;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.ic{
+  width: 20px;
+  height: 16px;
+  color: purple;
+}
+.ico{
+  width: 20px;
+  height: 16px;
+  color: purple;
+}
+.feature-container{
+  margin-top: 70px;
 }
