@@ -1,7 +1,7 @@
 import React from "react";
 import "../header/Header.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import logo from "./Logo.png"
 const Header = () => {
   return (
     <section>
@@ -9,7 +9,7 @@ const Header = () => {
       <header className="header">
         <div className="header__logo">
           <span className="header__logo-image">
-          <img src="../public/images/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
           </span>
           <span className="header__tagline">
             We love <br /> books</span>
