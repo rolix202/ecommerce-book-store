@@ -151,7 +151,7 @@ input::placeholder{
 .book-wrapper{
   display: flex;
   justify-content: end;
-  padding-right: 90px;
+  padding-right: 40px;
 }
 .hero-right-text{
 position: absolute;
@@ -161,6 +161,12 @@ color: #201F1F;
 top: 80px;
 left: 80px;
 line-height: 1.7;
+}
+.stock-limit{
+  color: #313131;
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
 }
 .hero-name-btn-1{
   margin-right: 15px;
@@ -189,7 +195,8 @@ line-height: 1.7;
   color: purple;
 }
 .feature-container{
-  margin-block: 70px;
+  margin-top: 170px;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
 }
@@ -234,6 +241,66 @@ line-height: 1.7;
 .read-pages span{
   border-bottom: 1px solid #231F2D;
 }
+.selected4u{
+  margin-bottom: 30px;
+}
 .selected4u h2{
   color: #313131;
+  margin-bottom: 40px;
+}
+.product-wrapper{
+  display: flex;
+}
+.product-card{
+  max-width: 300px;
+  margin: auto;
+}
+.img-wrap{
+  width: 274px;
+  height: 414px;
+}
+.book-img{
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+.product-card h4{
+  font-size: 24px;
+  color: #382C2C;
+  font-weight: 600;
+  padding-top: 24px;
+}
+.product-card .author{
+  font-size: 16px;
+  line-height: 40px;
+}
+.product-card .amount{
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+.cart-btn{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px 25px;
+}
+.cart-icon{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+.price-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heart-icon{
+  width: 32px;
+  height: 32px;
+  color: purple;
+  margin-right: 25px;
+  cursor: pointer;
 }
