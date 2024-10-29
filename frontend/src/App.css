@@ -189,5 +189,51 @@ line-height: 1.7;
   color: purple;
 }
 .feature-container{
-  margin-top: 70px;
+  margin-block: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.ship, .royalty, .read-pages{
+  width: 32%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #231F2D;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+}
+.royalty{
+  justify-content: center;
+}
+.read-pages{
+  justify-content: end;
+
+}
+.feature-container .icon{
+  width: 30px;
+  height: 30px;
+}
+.royalty::before{
+  content: "";
+  position: absolute;
+  height: 55px;
+  width: 1px;
+  background-color: #937DC2;
+  left: -50px;
+}
+.read-pages::before{
+  content: "";
+  position: absolute;
+  height: 55px;
+  width: 1px;
+  background-color: #937DC2;
+  left: 70px;
+}
+.read-pages span{
+  border-bottom: 1px solid #231F2D;
+}
+.selected4u h2{
+  color: #313131;
 }
