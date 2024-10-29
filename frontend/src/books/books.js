@@ -114,5 +114,17 @@ export const selected_for_you = [
     book_name: "Nona the Ninth",
     author: "Tamsyn Muir",
     amount: "$26.96"
+  },
+  {
+    pic: homeImg_1,
+    book_name: "I'm Glad My Mom Died",
+    author: "Jennette McCurdy",
+    amount: "$30.03"
+  },
+  {
+    pic: homeImg_3,
+    book_name: "Nona the Ninth",
+    author: "Tamsyn Muir",
+    amount: "$50.96"
   }
 ]
