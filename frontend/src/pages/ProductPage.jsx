@@ -2,7 +2,9 @@ import React from 'react'
 import Header from '../components/header/Header'
 import ProductDetails from '../components/product-Details/ProductDetails'
 import CollectionGrid from '../components/collection/Collections'
-import bookShop from '../books/books.json'
+import bookData from '../books/books'
+import lastViewData from '../books/lastViewed'
+import LastView from '../components/lastviewed/LastView'
 
 
 const ProductPage = () => {
@@ -10,7 +12,8 @@ const ProductPage = () => {
     <div>
         <Header />
         <ProductDetails/>
-        <CollectionGrid items={bookShop}/>
+        <CollectionGrid items={bookData}/>
+        <LastView items={lastViewData}/>
     </div>
   )
 }
