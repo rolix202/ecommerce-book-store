@@ -1,0 +1,118 @@
+/* Footer.css */
+.footer {
+    background-color: #a974d1;
+    
+  }
+  
+  .footer-categores{
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .footer__section {
+   
+   margin: 20px;
+    min-width: 120px;
+  }
+  
+  .footer__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer__link {
+    color: #FFFFFF;
+    opacity: 80%;
+    margin: 25px 0;
+  }
+  
+  .footer__info {
+   font-size: 15px;
+   margin: 25px 0;
+  }
+  
+  
+  .footer-contact-us{
+    margin-left: 60px;
+
+
+  }
+  .footer-contact-us-text{
+width: 171px;
+margin-top: 15px;
+padding-bottom:25px ;
+  }
+
+  .footer__button {
+    width: 171px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .footer__socials,
+  .footer__payments {
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer__socials-contanier{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+
+
+    
+  }
+  
+  .footer__icon,
+  .footer__payment-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer__payment-icon {
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px;
+    
+   
+  }
+  
+  .footer__socials .footer__icon {
+    font-size: 1.5rem;
+  }
+  
+  .footer__section--brand {
+    font-size: 1.2rem;
+  }
+  
+  .footer__section--contacts .footer__info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__section--contacts .footer__button {
+    margin-top: 10px;
+  }
+  
+  .footer__copyright {
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-top: 20px;
+    font-size: 0.8em;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  

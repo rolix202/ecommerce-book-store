@@ -9,7 +9,6 @@ import { FaRegHeart } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
 
 const CollectionGrid = ({ items }) => {
-  const [isFilled, setIsfilled] = useState(false);
 
   const itemsPerPage = 4;
   const totalItems = items.length;
@@ -57,11 +56,11 @@ const CollectionGrid = ({ items }) => {
           </span>
           {getCurrentItems().map((item, index) => (
             <div key={index} className="item">
-              <img src={item.image} alt={item.title} />
+              <img src={item.image} alt={item.title} style={{cursor : "pointer"}}/>
               <h3 className="items__item-title">{item.title}</h3>
               <p className="items__item-author">{item.author}</p>
               <div className="item-priceFahaertContainer">
-                <span className="items__item-price">${item.price}</span>
+                <span className="items__item-price">₦{item.price}</span>
                 <span
                   className="items__item-FaHeart"
                   onClick={() => handleHeartClick(index)}

@@ -58,7 +58,7 @@ const ProductDetails = () => {
       </div>
 
       <div className="price-section">
-        <p className="price">$12.49</p>
+        <p className="price">₦12.49</p>
         <p className="description">
           From #1 New York Times and USA TODAY bestselling author Cassandra Clare, this novel begins a new trilogy where evil hides in plain sight and love cuts deeper than any blade. Chain of Gold is a Shadowhunters novel.
         </p>

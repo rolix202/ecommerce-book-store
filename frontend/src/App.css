@@ -1,3 +1,7 @@
+*{
+  font-family: inter;
+}
+
 .top-menu{
   display: flex;
   padding: 15px;
