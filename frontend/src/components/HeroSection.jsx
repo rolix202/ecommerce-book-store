@@ -23,6 +23,7 @@ const HeroSection = () => {
                 </div>
                 <div className="hero-right">
                     <span className='hero-right-text'>Autographed <br /> books + 30% <br /> discount</span>
+                    <span className='stock-limit'>*within the stock limit</span>
                     <div className="book-wrapper">
                         <img src={HeroBook} alt="Hero Book" />
                     </div>

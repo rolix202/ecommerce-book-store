@@ -151,7 +151,7 @@ input::placeholder{
 .book-wrapper{
   display: flex;
   justify-content: end;
-  padding-right: 90px;
+  padding-right: 40px;
 }
 .hero-right-text{
 position: absolute;
@@ -161,6 +161,12 @@ color: #201F1F;
 top: 80px;
 left: 80px;
 line-height: 1.7;
+}
+.stock-limit{
+  color: #313131;
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
 }
 .hero-name-btn-1{
   margin-right: 15px;
@@ -189,5 +195,163 @@ line-height: 1.7;
   color: purple;
 }
 .feature-container{
-  margin-top: 70px;
+  margin-top: 170px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.ship, .royalty, .read-pages{
+  width: 32%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #231F2D;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+}
+.royalty{
+  justify-content: center;
+}
+.read-pages{
+  justify-content: end;
+
+}
+.feature-container .icon{
+  width: 30px;
+  height: 30px;
+}
+.royalty::before{
+  content: "";
+  position: absolute;
+  height: 55px;
+  width: 1px;
+  background-color: #937DC2;
+  left: -50px;
+}
+.read-pages::before{
+  content: "";
+  position: absolute;
+  height: 55px;
+  width: 1px;
+  background-color: #937DC2;
+  left: 70px;
+}
+.read-pages span{
+  border-bottom: 1px solid #231F2D;
+}
+.selected4u{
+  margin-bottom: 30px;
+  z-index: -111;
+}
+.selected4u h2{
+  color: #313131;
+  margin-bottom: 40px;
+}
+.product-wrapper{
+  display: flex;
+  position: relative;
+}
+.product-card{
+  max-width: 350px;
+  margin: auto;  
+  z-index: 1;
+}
+.img-wrap {
+  width: 100%; 
+  height: 414px; 
+  overflow: hidden;
+}
+
+.book-img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.product-card h4{
+  font-size: 24px;
+  color: #382C2C;
+  font-weight: 600;
+  padding-top: 24px;
+}
+.product-card .author{
+  font-size: 16px;
+  line-height: 40px;
+}
+.product-card .amount{
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+.cart-btn{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px 25px;
+}
+.cart-icon{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+.price-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heart-icon{
+  width: 32px;
+  height: 32px;
+  color: purple;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.selected-wrapper-1 {
+  position: relative; /* Establish positioning context */
+  width: 100%; /* Full width */
+  margin: 0 auto; /* Center the container */
+  overflow: visible; /* Allow overflow to be visible */
+}
+
+.product-wrapper {
+  position: relative; /* Needed for Swiper */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 32px !important; /* Button width */
+  height: 32px !important; /* Button height */
+  background-color: aqua; /* Button background color */
+  padding: 10px; /* Padding for buttons */
+  border-radius: 50%; /* Round buttons */
+  position: absolute; /* Position absolutely */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for button height */
+  z-index: 20; /* Ensure buttons are above other content */
+}
+
+.swiper-button-next {
+  right: -60px; /* Adjust as needed */
+}
+
+.swiper-button-prev {
+  left: 2vw; /* Adjust as needed */
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important; /* Icon size */
+  color: #937DC2 !important; /* Icon color */
+}
+
+.mySwiper{
+  padding-bottom: 70px !important;
+  position: absolute;
+}
+.swiper-pagination-bullet-active{
+  background-color: purple !important;
 }
