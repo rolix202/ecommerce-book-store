@@ -6,6 +6,7 @@ import FeatureSection from '../components/FeatureSection'
 import SelectedForYou from '../components/SelectedForYou'
 import { must_buy_it_now, selected_for_you } from '../books/books'
 import DidYouKnowUsSection from '../components/DidYouKnowUsSection'
+import Footer from '../components/footer/Footer'
 
 const Homepage = () => {
   return (
@@ -25,6 +26,10 @@ const Homepage = () => {
             book_info={must_buy_it_now}
         />
         <DidYouKnowUsSection />
+        <div className="foot">
+            <Footer />
+        </div>
+        
     </div>
   )
 }

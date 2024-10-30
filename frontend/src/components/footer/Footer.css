@@ -1,22 +1,33 @@
 /* Footer.css */
 .footer {
-    background-color: #a974d1;
+    background-color: #937DC2;
     
   }
   
   .footer-categores{
     color: #fff;
-    padding: 20px;
+    padding: 60px 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 95%;
+    margin: auto;
+    /* justify-content: center; */
+
 
   }
-  .footer__section {
+  .footer__section--brand{
+    width: 20%;
+  }
+  .other-footer-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .footer__section {
    
    margin: 20px;
     min-width: 120px;
-  }
+  } */
   
   .footer__title {
     margin-bottom: 10px;
@@ -42,7 +53,7 @@
   }
   .footer-contact-us-text{
 width: 171px;
-margin-top: 15px;
+/* margin-top: 15px; */
 padding-bottom:25px ;
   }
 
@@ -115,4 +126,8 @@ padding-bottom:25px ;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+  .icon-phone{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
