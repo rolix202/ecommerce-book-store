@@ -1,5 +1,5 @@
 import images from "./bookImages"
-const [image1,image2,image3,image4, homeImg_1, homeImg_2, homeImg_3, homeImg_4] = images
+const [image1,image2,image3,image4, homeImg_1, homeImg_2, homeImg_3, homeImg_4, homeImg_5, homeImg_6, homeImg_7, homeImg_8] = images
 
 const bookData = [
   {
@@ -95,36 +95,75 @@ export const selected_for_you = [
     pic: homeImg_1,
     book_name: "Financial Feminist",
     author: "Tori Dunlap",
-    amount: "$20.46"
+    amount: "₦20.46"
   },
   {
     pic: homeImg_2,
     book_name: "No More Police",
     author: "Andrea Ritchie",
-    amount: "$17.66"
+    amount: "₦17.66"
   },
   {
     pic: homeImg_3,
     book_name: "I'm Glad My Mom Died",
     author: "Jennette McCurdy",
-    amount: "$26.03"
+    amount: "₦26.03"
   },
   {
     pic: homeImg_4,
     book_name: "Nona the Ninth",
     author: "Tamsyn Muir",
-    amount: "$26.96"
+    amount: "₦26.96"
   },
   {
     pic: homeImg_1,
     book_name: "I'm Glad My Mom Died",
     author: "Jennette McCurdy",
-    amount: "$30.03"
+    amount: "₦30.03"
   },
   {
     pic: homeImg_3,
     book_name: "Nona the Ninth",
     author: "Tamsyn Muir",
-    amount: "$50.96"
+    amount: "₦50.96"
+  }
+]
+
+export const must_buy_it_now  = [
+  {
+    pic: homeImg_5,
+    book_name: "Book Lovers",
+    author: "Emily Henry",
+    amount: "₦15.81"
+  },
+  {
+    pic: homeImg_6,
+    book_name: "Harlem Shuffle",
+    author: "Colson Whitehead",
+    amount: "₦26.92"
+  },
+  {
+    pic: homeImg_7,
+    book_name: "Two Old Women",
+    author: "Velma Walls",
+    amount: "₦13.95"
+  },
+  {
+    pic: homeImg_8,
+    book_name: "Carrie Soto Is Back",
+    author: "Taylor Jenkins Red",
+    amount: "₦26.04"
+  },
+  {
+    pic: homeImg_6,
+    book_name: "I'm Glad My Mom Died",
+    author: "Jennette McCurdy",
+    amount: "₦30.03"
+  },
+  {
+    pic: homeImg_1,
+    book_name: "Nona the Ninth",
+    author: "Tamsyn Muir",
+    amount: "₦50.96"
   }
 ]

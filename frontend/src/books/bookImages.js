@@ -13,8 +13,13 @@ import homeImg_2 from "../assets/images/b.png"
 import homeImg_3 from "../assets/images/c.png"
 import homeImg_4 from "../assets/images/d.png"
 
+import homeImg_5 from "../assets/images/e.png"
+import homeImg_6 from "../assets/images/f.png"
+import homeImg_7 from "../assets/images/g.png"
+import homeImg_8 from "../assets/images/h.png"
 
-const images = [image1, image2, image3, image4, homeImg_1, homeImg_2, homeImg_3, homeImg_4];
+
+const images = [image1, image2, image3, image4, homeImg_1, homeImg_2, homeImg_3, homeImg_4, homeImg_5, homeImg_6, homeImg_7, homeImg_8];
 
 export default images;
 
