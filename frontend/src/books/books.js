@@ -6,87 +6,88 @@ const bookData = [
     image: image1,
     title: "Chain of Iron: Volume 2",
     author: "Cassandra Clare",
-    price: 23.24,
+    price: 1500.00,  
     loveIcon: true
   },
   {
     image: image2,
     title: "Chain of Thorns",
     author: "Cassandra Clare",
-    price: 23.24,
+    price: 2500.00, 
     loveIcon: false
   },
   {
     image: image3,
     title: "City of Fallen Angels",
     author: "Cassandra Clare",
-    price: 13.94,
+    price: 1800.00,  
     loveIcon: true
   },
   {
     image: image4,
     title: "Chain of Thorns",
     author: "Cassandra Clare",
-    price: 23.24,
+    price: 2200.00, 
     loveIcon: false
   },
   {
     image: image4,
     title: "Clockwork Princess",
     author: "Cassandra Clare",
-    price: 18.75,
+    price: 1700.00,  
     loveIcon: false
   },
   {
     image: image2,
     title: "Chain of Thorns",
     author: "Cassandra Clare",
-    price: 23.24,
+    price: 2100.00, 
     loveIcon: false
   },
   {
     image: image1,
     title: "City of Fallen Angels",
     author: "Cassandra Clare",
-    price: 13.94,
+    price: 1600.00,  
     loveIcon: true
   },
   {
     image: image4,
     title: "Chain of Thorns",
     author: "Cassandra Clare",
-    price: 23.24,
+    price: 2400.00, 
     loveIcon: false
   },
   {
     image: image2,
     title: "City of Fallen Angels",
     author: "Cassandra Clare",
-    price: 13.94,
+    price: 1900.00, 
     loveIcon: true
   },
   {
     image: image4,
     title: "Chain of Thorns",
     author: "Cassandra Clare",
-    price: 23.24,
+    price: 2300.00, 
     loveIcon: false
   },
   {
     image: image1,
     title: "City of Fallen Angels",
     author: "Cassandra Clare",
-    price: 13.94,
+    price: 2500.00,  
     loveIcon: true
   },
   {
     image: image1,
     title: "City of Fallen Angels",
     author: "Cassandra Clare",
-    price: 13.94,
+    price: 2000.00,  
     loveIcon: true
   }
 ];
+
 
 export default bookData;
 
