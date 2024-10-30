@@ -5,32 +5,36 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { FreeMode, Pagination, Navigation } from 'swiper/modules';
 
-import { selected_for_you } from '../books/books';
 import { ShoppingCartIcon } from '@heroicons/react/24/solid';
 import { HeartIcon } from '@heroicons/react/24/outline';
 import ButtonComponent from './ButtonComponent';
 
-const SelectedForYou = () => {
+const SelectedForYou = ({ book_info, title }) => {
     return (
         <div className="selected-wrapper-1">
+            <div className="arrow-wrapper"> {/* Wrapper for arrows */}
+                <div className="swiper-button-prev" />
+                <div className="swiper-button-next" />
+            </div>
             <div className='wrapper'>
-            <div className="selected4u">
-                <h2>Selected for you</h2>
-                <div className="product-wrapper">
-                    <>
+                <div className="selected4u">
+                    <h2>{title} </h2>
+                    <div className="product-wrapper">
                         <Swiper
                             slidesPerView={4}
-                            spaceBetween={60}
+                            spaceBetween={30}
                             freeMode={true}
                             pagination={{
                                 clickable: true,
                             }}
-                            navigation={true}
+                            navigation={{
+                                prevEl: '.swiper-button-prev',
+                                nextEl: '.swiper-button-next',
+                            }}
                             modules={[FreeMode, Pagination, Navigation]}
                             className="mySwiper"
-                        >
-
-                            {selected_for_you.map((card, index) => (
+                        >   
+                            {book_info.map((card, index) => (
                                 <SwiperSlide key={index} className="product-card">
                                     <div className="img-wrap">
                                         <img src={card.pic} alt={card.book_name} className='book-img' />
@@ -38,7 +42,7 @@ const SelectedForYou = () => {
                                     <h4>{card.book_name}</h4>
                                     <p className='author'>{card.author}</p>
                                     <div className="price-wrap">
-                                        <h4 className='amount'>{card.amount}</h4>
+                                        <h4 className='amount'>₦{card.amount.toLocaleString()}</h4>
                                         <HeartIcon className='heart-icon' />
                                     </div>
                                     <ButtonComponent
@@ -48,14 +52,11 @@ const SelectedForYou = () => {
                                     />
                                 </SwiperSlide>
                             ))}
-
                         </Swiper>
-                    </>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        
     );
 };
 

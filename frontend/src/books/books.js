@@ -1,5 +1,5 @@
 import images from "./bookImages"
-const [image1,image2,image3,image4, homeImg_1, homeImg_2, homeImg_3, homeImg_4] = images
+const [image1,image2,image3,image4, homeImg_1, homeImg_2, homeImg_3, homeImg_4, homeImg_5, homeImg_6, homeImg_7, homeImg_8] = images
 
 const bookData = [
   {
@@ -92,39 +92,78 @@ export default bookData;
 
 export const selected_for_you = [
   {
-    pic: homeImg_1,
+    pic: homeImg_4,
     book_name: "Financial Feminist",
     author: "Tori Dunlap",
-    amount: "$20.46"
-  },
-  {
-    pic: homeImg_2,
-    book_name: "No More Police",
-    author: "Andrea Ritchie",
-    amount: "$17.66"
+    amount: 2000.00
   },
   {
     pic: homeImg_3,
-    book_name: "I'm Glad My Mom Died",
-    author: "Jennette McCurdy",
-    amount: "$26.03"
+    book_name: "No More Police",
+    author: "Williams Roland",
+    amount: 1999999.99
   },
   {
-    pic: homeImg_4,
-    book_name: "Nona the Ninth",
-    author: "Tamsyn Muir",
-    amount: "$26.96"
+    pic: image3,
+    book_name: "Chain of Iron: Volume 2",
+    author: "Cassandra Clare",
+    amount: 299.99
   },
   {
     pic: homeImg_1,
-    book_name: "I'm Glad My Mom Died",
-    author: "Jennette McCurdy",
-    amount: "$30.03"
-  },
-  {
-    pic: homeImg_3,
     book_name: "Nona the Ninth",
     author: "Tamsyn Muir",
-    amount: "$50.96"
+    amount: 7999.99
+  },
+  {
+    pic: image3,
+    book_name: "Chain of Iron: Volume 2",
+    author: "Cassandra Clare",
+    amount: 299.99
+  },
+  {
+    pic: homeImg_1,
+    book_name: "Nona the Ninth",
+    author: "Tamsyn Muir",
+    amount: 7999.99
+  }
+]
+
+export const must_buy_it_now  = [
+  {
+    pic: homeImg_5,
+    book_name: "Book Lovers",
+    author: "Emily Henry",
+    amount: 599.99
+  },
+  {
+    pic: homeImg_6,
+    book_name: "Harlem Shuffle",
+    author: "Colson Whitehead",
+    amount: 1249.99
+  },
+  {
+    pic: homeImg_7,
+    book_name: "Two Old Women",
+    author: "Velma Walls",
+    amount: 95.99
+  },
+  {
+    pic: homeImg_8,
+    book_name: "Carrie Soto Is Back",
+    author: "Taylor Jenkins Red",
+    amount: 3999.99
+  },
+  {
+    pic: homeImg_6,
+    book_name: "Chain of Iron: Volume 2",
+    author: "Cassandra Clare",
+    amount: 249.99
+  },
+  {
+    pic: homeImg_1,
+    book_name: "Nona the Ninth",
+    author: "Tamsyn Muir",
+    amount: 359.99
   }
 ]
