@@ -5,6 +5,7 @@ import CollectionGrid from '../components/collection/Collections'
 import bookData from '../books/books'
 import lastViewData from '../books/lastViewed'
 import LastView from '../components/lastviewed/LastView'
+import Footer from '../components/footer/Footer'
 
 
 const ProductPage = () => {
@@ -14,6 +15,7 @@ const ProductPage = () => {
         <ProductDetails/>
         <CollectionGrid items={bookData}/>
         <LastView items={lastViewData}/>
+        <Footer/>
     </div>
   )
 }
