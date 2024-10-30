@@ -42,7 +42,7 @@ const SelectedForYou = ({ book_info, title }) => {
                                     <h4>{card.book_name}</h4>
                                     <p className='author'>{card.author}</p>
                                     <div className="price-wrap">
-                                        <h4 className='amount'>{card.amount}</h4>
+                                        <h4 className='amount'>₦{card.amount.toLocaleString()}</h4>
                                         <HeartIcon className='heart-icon' />
                                     </div>
                                     <ButtonComponent
