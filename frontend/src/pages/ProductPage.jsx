@@ -11,6 +11,7 @@ import Footer from '../components/footer/Footer'
 const ProductPage = () => {
   return (
     <div>
+
         <Header />
         <ProductDetails/>
         <CollectionGrid items={bookData}/>

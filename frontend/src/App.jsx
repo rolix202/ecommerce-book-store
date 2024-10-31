@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Homepage from './pages/Homepage'
 import ProductPage from './pages/ProductPage';
+import Warning from './components/warning/Warning'
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,9 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <div>
-
+     <Warning>
       <RouterProvider router={router} />  
+      </Warning>
     </div>
     
   )
