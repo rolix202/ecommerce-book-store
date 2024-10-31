@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ScreenWarning = ({ children }) => {
     const [isWarningVisible, setIsWarningVisible] = useState(false);
-    const minWidth = 1024; 
+    const minWidth = 991; 
 
     const checkScreenSize = () => {
         if (window.innerWidth < minWidth) {

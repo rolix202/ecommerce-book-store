@@ -369,7 +369,7 @@ line-height: 1.7;
   width: 50%;
 }
 .form-section-content{
-  width: 554px;
+  max-width: 554px;
 }
 .form-itself{
   margin-top: 30px;
