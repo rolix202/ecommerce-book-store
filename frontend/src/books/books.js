@@ -102,7 +102,7 @@ export const selected_for_you = [
     pic: homeImg_3,
     book_name: "No More Police",
     author: "Williams Roland",
-    amount: 1999999.99
+    amount: 1999.99
   },
   {
     pic: image3,

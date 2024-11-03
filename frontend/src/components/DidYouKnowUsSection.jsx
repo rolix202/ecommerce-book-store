@@ -8,7 +8,7 @@ const DidYouKnowUsSection = () => {
                 <div className="form-section">
                     <div className="form-section-content">
                         <h2>Did you know us? </h2>
-                        <p>We are about books and our purpose is to show you the book who can chage your life or distract you from the real world în a better one. BWorld works with the must popular publishs just for your delight.
+                        <p>We are about books and our purpose is to show you the book who can chage your life or distract you from the real world în a better one. BookStore works with the must popular publishs just for your delight.
                             If you are about books, you must to subscribe to our newsletter. </p>
 
                         <form action="" className='form-itself'>
