@@ -33,6 +33,13 @@ const SelectedForYou = ({ book_info, title }) => {
                             }}
                             modules={[FreeMode, Pagination, Navigation]}
                             className="mySwiper"
+
+                            breakpoints={{
+                                320: { slidesPerView: 1 },
+                                640: { slidesPerView: 2 },
+                                1024: { slidesPerView: 3 },
+                                1280: { slidesPerView: 4 }
+                            }}
                         >   
                             {book_info.map((card, index) => (
                                 <SwiperSlide key={index} className="product-card">

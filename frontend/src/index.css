@@ -16,3 +16,42 @@ body{
   width: 85%;
   margin: 0 auto;
 }
+
+@media (min-width: 1200px){
+  .hero-right-text{
+    left: 0;
+  }
+  .book-wrapper{
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1245px){
+  .hero-right-text{
+    display: none;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1480px){
+  .hero-right-text{
+    left: 20px;
+  }
+  
+}
+@media (max-width: 1160px){
+  .royalty::before{
+    left: -10px;
+  }
+}
+@media (max-width: 1122px){
+  .read-pages::before{
+    left: 40px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+  .know-us-wrap{
+    gap: 20px;
+  }
+
+  
+}
